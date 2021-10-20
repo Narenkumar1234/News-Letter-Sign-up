@@ -64,6 +64,7 @@ function animatePress(currentColor){
 }, 100);
 }
 
+//changed clicked
 
 $(document).click(function(){
 if(bool==true)
