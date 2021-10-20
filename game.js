@@ -64,11 +64,7 @@ function animatePress(currentColor){
 }, 100);
 }
 
-
-$(document).keydown(function(){
-if(bool==true)
-  nextSequence();
-});
+nextSequence();
 
 function wrong()
 {
