@@ -64,13 +64,17 @@ function animatePress(currentColor){
 }, 100);
 }
 
-nextSequence();
+
+$(document).click(function(){
+if(bool==true)
+  nextSequence();
+});
 
 function wrong()
 {
   playSound("wrong");
   $("body").addClass("game-over");
-  $("h1").html("GAME-OVER<br> Refresh the page to restart");
+  $("h1").html("GAME-OVER<br> Press any key to restart");
 setTimeout(function(){
   $("body").removeClass("game-over");
 },1000);
