@@ -70,7 +70,7 @@ function wrong()
 {
   playSound("wrong");
   $("body").addClass("game-over");
-  $("h1").html("GAME-OVER<br> Press any key to restart");
+  $("h1").html("GAME-OVER<br> Refresh the page to restart");
 setTimeout(function(){
   $("body").removeClass("game-over");
 },1000);
